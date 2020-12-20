@@ -54,8 +54,8 @@ export const create = function(
   });
 
   return {
-    init: (opts: any): null => {
-      return null;
+    init: async (opts: any): Promise<void> => {
+      // NOTHING TO SEE HERE
     },
     zones: async (opts: any) => {
       try {
